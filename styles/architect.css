@@ -5,7 +5,6 @@
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    /* margin: 0 auto; */
 }
 
 .orange-button {
@@ -73,6 +72,58 @@ nav li {
     width: 100%;
 }
 
+/* main styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 2px solid lightgreen;
+}
+
+/*features section*/
+.features-section {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+}
+
+.image-gallery img {
+    width: 100%;
+}
+
+.features-description {
+    max-width: 500px;
+}
+
+.features-title {
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.feature-span1 {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.feature-span2 {
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.feature-details {
+    color: #727272;
+    font-weight: 400;
+}
+
 /* responsive media queries */
 /* small devices */
 @media screen and (max-width:576px) {
@@ -84,6 +135,3 @@ nav li {
         flex-direction: column;
     }
 }
-
-/* medium devices */
-@media screen and (min-width:576px) and (max-width:992px) {}
