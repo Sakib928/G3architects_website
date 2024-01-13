@@ -5,9 +5,19 @@
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    /* margin: 0 auto; */
 }
 
-.orange-button {}
+.orange-button {
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
 
 /* header styles  */
 header {
@@ -59,5 +69,21 @@ nav li {
 }
 
 .banner-image {
+    margin-top: 50px;
     width: 100%;
 }
+
+/* responsive media queries */
+/* small devices */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {}
